@@ -1,0 +1,11 @@
+name: vtitg-asffn
+adp_dim: 10
+layers: 4 # Layers for (input/output)Embedding
+order: 2
+dilation: 1
+kernel_size: 3
+dropout: 0.5
+share: False # Channels-independent or Share
+use_update: False # use MLP instead of ffMLP
+use_guide: True # use adaptive-smooth
+use_mav: False #True: use dca-asffn for MAV, else use vtitg-asffn for MEV

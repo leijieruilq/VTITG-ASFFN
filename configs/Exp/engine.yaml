@@ -1,0 +1,40 @@
+info:
+    exp_ID: ""
+    notes: ""
+    exp_start_time: ""
+    task_name: ""
+    save_log: True
+    print_info: True
+    iter_report: True
+    print_every: 100
+    model_summary: False
+    
+path:
+    root_path: "./TCA-FFN/"
+    raw_path: "raw_files/"
+    file_path: "dataset/"
+    saving_path: "results/"
+
+envs:
+    loss: l1
+    dataset_prob: [0.6,0.2,0.2]
+    data_scale: True
+    date_scale: True
+    c_out: -1
+    regen_dataset: True
+    check_dataloader: True
+    muti_process: False
+    seed: 42
+    device: cpu
+    dtype: torch.float
+    adjust_lr: False
+    save_best_model: True
+    load_best_model: False
+    inp_len: 12
+    pred_len: 12
+    epochs: 5
+    batch_size: 32
+    optimizer: adam
+    learning_rate: 2e-3
+    weight_decay: 0  #1e-3 #1e-4 #1e-4
+    dropout: 0.3

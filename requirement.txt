@@ -1,0 +1,12 @@
+# python==3.11
+torch
+torchvision
+torchaudio
+pynvml
+scipy
+einops
+pyyaml
+h5py
+pandas
+openpyxl
+pytables # you might be need to use conda install for pytables.

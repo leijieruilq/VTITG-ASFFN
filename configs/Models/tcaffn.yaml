@@ -1,0 +1,11 @@
+name: tcaffn
+order: 2
+dilation: 1
+kernel_size: 3
+emb_dim: 10
+dropout: 0.5
+sta_layers: 1
+
+time_emb: False
+share: False
+use_update: False
