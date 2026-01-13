@@ -1,4 +1,4 @@
-# VTITG-ASFFN
+# Collaborative Multivariate Time Series Forecasting via Variable-Tailored Inter-Temporal Graph and Adaptive-Smooth Frequency Fusion
 
 
 ## running programme
