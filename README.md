@@ -1,4 +1,4 @@
-# Collaborative Multivariate Time Series Forecasting via Variable-Tailored Inter-Temporal Graph and Adaptive-Smooth Frequency Fusion
+# （MLJ 2026）Collaborative Multivariate Time Series Forecasting via Variable-Tailored Inter-Temporal Graph and Adaptive-Smooth Frequency Fusion
 
 
 ## running programme
