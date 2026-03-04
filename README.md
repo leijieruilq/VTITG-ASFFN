@@ -20,7 +20,7 @@ Frequency domain learning and accurate multivariate dependencies are crucial for
 
 ## Data Preparation
 
-> Please see the "raw_files.zip", you can directly use the command "unzip raw_files.zip" to get all the datasets in ".csv" form  
+Please see the "raw_files.zip", you can directly use the command "unzip raw_files.zip" to get all the datasets in ".csv" form  
 
 ## Running Programme
 
@@ -55,6 +55,9 @@ Frequency domain learning and accurate multivariate dependencies are crucial for
     kernel_size: "3";      dropout: "0.5";      share: "False";      use_update: "False";  
     use_guide: "True";      use_mav: "True";      c_date: "5";      n_nodes: "1";      c_in: "21";  
     c_out: "21";      device: "cuda:0";      inp_len: "96";      pred_len: "720";  
+
+## Question
+The "other_version" folder contains multiple versions of VTITG-ASFFN during the rebuttal process. You can browse the PDF files for more detailed answers.
 
 ## Citation
 
