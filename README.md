@@ -1,5 +1,7 @@
 # （MLJ 2026）Collaborative Multivariate Time Series Forecasting via Variable-Tailored Inter-Temporal Graph and Adaptive-Smooth Frequency Fusion
 
+<img width="721" height="343" alt="{F1AB5EBB-F040-4BEB-B254-0143143D52D7}" src="https://github.com/user-attachments/assets/7f93a610-3d08-46d7-bda5-86a00dd306de" />
+
 ## Introduction
 
 Frequency domain learning and accurate multivariate dependencies are crucial for driving multivariate time series forecasting applications in real world. However, the existing progress remains limited. First, the multivariate variables can be divided into “Multi-Attribute” and “Multi-Entity” types, which necessitate considerations for tailored correlation modeling and dynamic dependencies capturing. Second, the inherent non-stationary of time series conflicts with the stationary assumptions of frequency analysis, and the temporal globality of Fourier basis function tends to neglect local information. To address these challenges, we propose the Variable-Tailored Inter-Temporal Graph and Adaptive-Smooth Frequency Fusion Network (VTITG-ASFFN), which first adaptively stabilizes time series through mask learning and realizes local–global collaborative learning by frequency components mining and fusion, then a notable innovation is a tailored inter-temporal graph for “Multi-Attribute” and “Multi-Entity” correlation scenarios, which effectively interacts with input series via Variable-Tailored Adaptive Graph and Channels-Time Graph, learning “dynamic spatial-temporal dependencies” in temporal context, enabling high-fidelity evolution of “Multi-Attribute” and dynamic understanding of correlations among “Multi-Entity”. Evaluations on 8 real-world datasets demonstrate the superiority of VTITG-ASFFN in forecasting, efficiency and universality over SoTA benchmarks. 
@@ -18,7 +20,7 @@ Frequency domain learning and accurate multivariate dependencies are crucial for
 
 ## Data Preparation
 
-> >Please see the "raw_files.zip", you can directly use the command "unzip raw_files.zip" to get all the datasets in ".csv" form  
+> Please see the "raw_files.zip", you can directly use the command "unzip raw_files.zip" to get all the datasets in ".csv" form  
 
 ## Running Programme
 
