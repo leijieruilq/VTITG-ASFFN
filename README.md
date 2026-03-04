@@ -16,6 +16,10 @@ Frequency domain learning and accurate multivariate dependencies are crucial for
 
 <img width="626" height="182" alt="{0FCC3A4F-635E-44C2-B70D-8FA5F10DC35F}" src="https://github.com/user-attachments/assets/2e4d5a40-4000-4d1a-8943-439169ceee13" />
 
+## Data Preparation
+
+> >Please see the "raw_files.zip", you can directly use the command "unzip raw_files.zip" to get all the datasets in ".csv" form  
+
 ## Running Programme
 
 ### Single-process experiment: running exp.py
