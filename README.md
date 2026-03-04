@@ -55,3 +55,25 @@ Frequency domain learning and accurate multivariate dependencies are crucial for
     kernel_size: "3";      dropout: "0.5";      share: "False";      use_update: "False";  
     use_guide: "True";      use_mav: "True";      c_date: "5";      n_nodes: "1";      c_in: "21";  
     c_out: "21";      device: "cuda:0";      inp_len: "96";      pred_len: "720";  
+
+## Citation
+
+If you find this repo helpful, please cite our paper. 
+```
+﻿@Article{Lei2026,
+author={Lei, Jierui
+and Peng, Peng
+and Tang, Haina
+and Zhang, Xudong
+and Chen, Fangzheng
+and Zhang, Wenjian},
+title={Collaborative Multivariate Time Series Forecasting via Variable-Tailored Inter-temporal Graph and Adaptive-Smooth Frequency Fusion},
+journal={Machine Learning},
+year={2026},
+volume={115},
+issn={1573-0565},
+doi={10.1007/s10994-025-06963-2},
+url={https://doi.org/10.1007/s10994-025-06963-2}
+}
+```
+"""
